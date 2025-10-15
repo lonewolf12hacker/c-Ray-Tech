@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Crypto Tracker — cRay Tech</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    :root{ --accent:#7AF0FF; --bg2:linear-gradient(135deg,#041014,#001219);}
+    body{background: radial-gradient(600px 240px at 12% 18%, rgba(122,240,255,0.06), transparent), var(--bg);}
+    .hero-right .device-mock{background:linear-gradient(135deg, rgba(122,240,255,0.06), rgba(0,0,0,0.25));}
+    .project-hero{padding:60px 28px;text-align:center}
+    .dash{max-width:980px;margin:20px auto;padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(122,240,255,0.03), rgba(255,255,255,0.01));border:1px solid rgba(122,240,255,0.06)}
+    .stat{display:inline-block;width:30%;min-width:160px;padding:12px}
+    .stat h4{color:var(--accent)}
+  </style>
+</head>
+<body>
+  <header class="site-header container">
+    <div class="brand"><div class="logo">CT</div><div class="brand-text"><h1>cRay Tech</h1></div></div>
+    <nav class="main-nav"><a href="../index.html">Home</a></nav>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <h2>Crypto Tracker</h2>
+      <p class="lead">Dark, realtime-style dashboard mock built as a static demo — responsive and fast.</p>
+    </section>
+
+    <section class="container">
+      <div class="dash">
+        <div class="stat"><h4>BTC</h4><div class="muted">45,123 USD</div></div>
+        <div class="stat"><h4>ETH</h4><div class="muted">3,412 USD</div></div>
+        <div class="stat"><h4>Change</h4><div class="muted">+2.4%</div></div>
+      </div>
+
+      <div style="max-width:1100px;margin:20px auto">
+        <h3>Overview</h3>
+        <p class="muted">This static page simulates a crypto-tracker dashboard with visual emphasis on data readability and rapid updates. You can wire it to an API to fetch live prices.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

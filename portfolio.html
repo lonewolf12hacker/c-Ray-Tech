@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio Templates — cRay Tech</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    :root{ --accent:#FFD66B; }
+    body{background: radial-gradient(600px 240px at 88% 82%, rgba(255,214,107,0.05), transparent), var(--bg);}
+    .project-hero{padding:60px 28px;text-align:center}
+    .templates-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:1100px;margin:20px auto}
+    .template{padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,214,107,0.03), rgba(255,255,255,0.01));border:1px solid rgba(255,214,107,0.06)}
+    @media (max-width:900px){ .templates-grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <header class="site-header container">
+    <div class="brand"><div class="logo">CT</div><div class="brand-text"><h1>cRay Tech</h1></div></div>
+    <nav class="main-nav"><a href="../index.html">Home</a></nav>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <h2>Portfolio Templates</h2>
+      <p class="lead">Clean, modern templates ready to be reused — each with accessible typography and modular sections.</p>
+    </section>
+
+    <section class="container">
+      <div class="templates-grid">
+        <div class="template"><h4>Template A</h4><p class="muted">Minimal portfolio for designers.</p></div>
+        <div class="template"><h4>Template B</h4><p class="muted">Futuristic two-column layout.</p></div>
+        <div class="template"><h4>Template C</h4><p class="muted">Developer-focused project showcase.</p></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
